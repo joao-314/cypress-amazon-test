@@ -10,7 +10,7 @@ describe("Adicionar livro ao carrinho na Amazon", () => {
     amazonPage.applyFilter(amazonPage.englishLanguageFilter, "Inglês");
     amazonPage.selectBook("AI Engineering: Building Applications with Foundation Models");
     amazonPage.selectBookFormat("Capa Comum");
-    amazonPage.validateAuthor("Chip HuyenX");
+    amazonPage.validateAuthor("Chip HuyenXY");
     amazonPage.addToCart();
     amazonPage.validateSuccessMessage();
   });
