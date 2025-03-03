@@ -33,4 +33,4 @@ jobs:
         if: failure()
         with:
           name: cypress-screenshots
-          path: CYPRESS-AMAZON-TEST/cypress/screenshots
+          path: cypress/screenshots
