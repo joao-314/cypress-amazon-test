@@ -38,7 +38,7 @@ Antes de configurar e executar o projeto localmente, certifique-se de ter instal
 ### 4.1 Clonar o Repositório  
 1. Clone o repositório do GitHub:  
    ```bash
-   git clone https://github.com/seu-usuario/CYPRESS-AMAZON-TEST.git
+   git clone https://github.com/joao-314/CYPRESS-AMAZON-TEST.git
    cd CYPRESS-AMAZON-TEST
 
 ### 4.2 Instalar Dependências
