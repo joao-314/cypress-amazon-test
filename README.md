@@ -1,4 +1,4 @@
-# README.md para o Projeto CYPRESS-AMAZON-TEST
+# Projeto CYPRESS-AMAZON-TEST
 
 ## Cypress Amazon Test Automation  
 Este é um projeto de automação de testes end-to-end (E2E) para o site da Amazon, utilizando Cypress, focado em validar o fluxo de adicionar um livro ("AI Engineering: Building Applications with Foundation Models") ao carrinho com filtros específicos (novo, em inglês, formato "Capa Comum"). A pipeline CI/CD foi configurada com GitHub Actions para execução automatizada e geração de relatórios.
