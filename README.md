@@ -72,12 +72,12 @@ Antes de configurar e executar o projeto localmente, certifique-se de ter instal
 
 2. Acesse a aba "Actions" no GitHub para verificar se o pipeline foi acionado automaticamente.
 
-### 7.2 Verificar Relatórios de Falhas
+### 6.2 Verificar Relatórios de Falhas
 1. Simule uma falha nos testes (ex.: altere um seletor em AmazonPage.js ou amazon-cart.cy.js para um valor incorreto).
 
 2. Verifique se as evidências dos testes falhos são enviadas como artefatos gerados na pipeline 
 
-### 7.3 Verificar Relatórios de Falhas
+### 6.3 Verificar Relatórios de Falhas
 1. Para executar os testes em paralelo, ajuste o ci-cd.yml para usar a ação oficial do Cypress:
        ```bash
        - name: Run Cypress tests
