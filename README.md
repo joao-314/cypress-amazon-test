@@ -16,10 +16,7 @@ O `CYPRESS-AMAZON-TEST` automatiza testes de interface no site da Amazon, garant
 
 ---
 
-## 2. Estrutura do Projeto  
-A estrutura do projeto é a seguinte:  
-
-### Descrição dos Arquivos Principais  
+## 2. Descrição dos Arquivos Principais 
 - **`amazon-cart.cy.js`**: Contém o teste E2E para adicionar o livro "AI Engineering: Building Applications with Foundation Models" ao carrinho, aplicando filtros de condição ("Novo") e idioma ("Inglês"), e validando o autor ("Chip Huyen") e o formato ("Capa Comum").  
 - **`AmazonPage.js`**: Implementa o modelo Page Object com seletores e ações para interagir com a página da Amazon (busca, filtros, seleção de livro, adição ao carrinho, validações).  
 - **`cypress.config.js`**: Configuração do Cypress para o projeto, incluindo definições de ambiente e plugins.  
