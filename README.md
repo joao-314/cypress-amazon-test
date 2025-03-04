@@ -79,9 +79,9 @@ Antes de configurar e executar o projeto localmente, certifique-se de ter instal
 
 ### 6.3 Verificar Relatórios de Falhas
 1. Para executar os testes em paralelo, ajuste o ci-cd.yml para usar a ação oficial do Cypress:
-       ```bash
-       - name: Run Cypress tests
-        uses: cypress-io/github-action@v5
+    ```bash
+    - name: Run Cypress tests
+    uses: cypress-io/github-action@v5
         with:
             browser: chrome
             headless: true
